@@ -11,7 +11,7 @@ tmp/
 public/system/*
 
 # things with example files
-config/database.yml
+# config/database.yml
 config/facebook.yml
 config/twitter.yml
 config/deploy/
@@ -31,3 +31,5 @@ coverage.data
 *.rej
 *.swp
 *.bak
+
+.rbenv-version
