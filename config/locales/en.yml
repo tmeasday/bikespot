@@ -2,32 +2,32 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  app_name: Bike Spot
+  app_name: BikeSpot
   map_controls:
-    locate_feature: 'Add a location!'
-    finalize_feature: 'Confirm Location'
+    locate_feature: 'Add a spot!'
+    finalize_feature: 'Confirm Spot'
     drag_hint: 'Drag me\! Then click confirm.'
-    drag_hint_long: 'Drag your location to the center of the map'
+    drag_hint_long: 'Drag your Spot to the center of the map'
   auth:
     fb_signin: 'Sign in with Facebook'
     twitter_signin: 'Sign in with Twitter'
     sign_in: 'sign in with'
   account:
-    my_points: 'My Points'
+    my_points: 'My Spots'
     my_supports: 'Supported'
   feature:
     notice:
-      point_added: 'Thank you! Your point was added to the map. Please, share it with your friends.'
-      invalid: 'There are some errors with your point.'
-      out_of_bounds: "Point doesn't fall within the defined regions"
+      point_added: 'Thank you! Your spot was added to the map. Please, share it with your friends.'
+      invalid: 'There are some errors with your spot.'
+      out_of_bounds: "Spot doesn't fall within the defined regions"
     form:
       header: 'Tell us more...'
       title_label: Location Name
       description_label: Description...
       submitter_name_label: 'Your Name'
-      submit: 'Submit Location'
-    purpose: 'This location is a %{type}.'
-    submitted_by: 'added this point %{in_region}'
+      submit: 'Submit Spot'
+    purpose: 'This spot is a %{type}.'
+    submitted_by: 'added this spot %{in_region}'
     when: 'on %{date} at %{time}'
     comment: 
       label: comment
@@ -46,13 +46,13 @@ en:
     comment:
       action: 'commented on'
     point:
-      action: added a point
+      action: added a spot
       in_region: "in %{region}"
-      by_name: "%{name}'s point"
+      by_name: "%{name}'s spot"
   # Model names and model attribute names
   activerecord:
     models:
-      feature_point: point
+      feature_point: spot
       user: someone
     attributes:
       feature_point:
