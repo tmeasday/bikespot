@@ -12,8 +12,8 @@ public/system/*
 
 # things with example files
 # config/database.yml
-config/facebook.yml
-config/twitter.yml
+# config/facebook.yml
+# config/twitter.yml
 config/deploy/
 
 # cover_me generated

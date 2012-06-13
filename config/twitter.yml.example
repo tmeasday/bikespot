@@ -1,9 +1,0 @@
-development:
-  consumer_key: 
-  consumer_secret: 
-test:
-  consumer_key: 
-  consumer_secret: 
-production:
-  consumer_key: 
-  consumer_secret: 
