@@ -2,7 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  app_name: Shareabouts
+  app_name: Bike Spot
   map_controls:
     locate_feature: 'Add a location!'
     finalize_feature: 'Confirm Location'
