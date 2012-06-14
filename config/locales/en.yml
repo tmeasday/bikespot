@@ -22,7 +22,7 @@ en:
       out_of_bounds: "Spot doesn't fall within the defined regions"
     form:
       header: 'Tell us more...'
-      title_label: Location Name
+      title_label: Spot Name
       description_label: Description...
       submitter_name_label: 'Your Name'
       submit: 'Submit Spot'
