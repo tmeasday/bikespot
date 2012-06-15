@@ -12,7 +12,18 @@ label {
   color: #888;
   font-size: 0.8em;
   display: block;
+  float: left;
+  margin-right: 10px;
 }
+.formError {
+  font-size: 0.8em;
+  color: #c00;
+}
+input, select, textarea {
+  display: block;
+  clear: left;
+}
+
 input[type=button],
 input[type=submit],
 button {
@@ -299,7 +310,7 @@ table.regions {
 .feature textarea {
   width : 90%;
 }
-.feature div {
+.feature .field {
   margin-bottom: 1em;
 }
 .feature.show .meta ul {

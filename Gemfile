@@ -53,3 +53,5 @@ group :production do
   gem 'libv8', "3.3.10.2"
   gem 'therubyracer'
 end
+
+gem 'dynamic_form'

@@ -677,6 +677,10 @@ $.widget("ui.shareabout", (function() {
           map.removeLayer(shareabout.newFeature);
         }
       };
+      
+      fsm.onerrorNewFeature = function(eventName, from, to, id, responseData) {
+        $(".information-panel-content").html(responseData.view);
+      };
 
       /*
        * Removes all the layers related to feature submission.

@@ -40,6 +40,7 @@ class FeaturePoint < ActiveRecord::Base
   accepts_nested_attributes_for :feature_location_type
 
   validates :the_geom,  :presence => true
+  validates :name, :presence => true
   validates_with InRegionValidator, :if => lambda { Region.any? }
 
   # Returns points which are visible within the boundaries
